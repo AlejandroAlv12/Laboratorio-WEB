@@ -32,4 +32,15 @@ En resumen, las etiquetas `<meta>` son esenciales para la **compatibilidad, acce
 > ¿Y si está en una carpeta superior? 
 
 **Respuesta:** 
-Si la imagen esta en la misma carpeta de la imagen o una superior, la referencia `imagenes/imagen.jpg` no funcionaria, por lo que se haria uso de la etiqueta `alt` y se mostrará en este caso *"Imagen"* con un pequeño icono de imagen rota, haciendo referencia a que la imagen o el vínculo esta **roto**. Una solución en estos dos caso es cambiar la referencia a una como `imagen.jpg` o como `../imagen.jpg` respectivamente.
+Si la imagen esta en la misma carpeta de la imagen o una superior, la ruta `imagenes/imagen.jpg` no funcionaria, por lo que se haria uso del atributo `alt` y se mostrará en este caso *"Imagen"* con un pequeño icono de imagen rota, haciendo referencia a que la imagen o el vínculo esta **roto**. Una solución en estos dos caso es cambiar la ruta de `src` a una como `imagen.jpg` o como `../imagen.jpg` respectivamente.
+
+---
+
+### Pregunta 10 
+**Enunciado:**  
+> Pregúntese, ¿Cómo se consigue que el último enlace se abra en una nueva ventana?
+
+**Respuesta:** 
+Se consigue con el atributo `target="_ablank"` donde `target` controla donde se abre el enlace y el valor `_ablank` indica que se abra en una nueva ventana.
+
+---
