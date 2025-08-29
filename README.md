@@ -24,3 +24,12 @@ Estos metadatos son utilizados por:
 En resumen, las etiquetas `<meta>` son esenciales para la **compatibilidad, accesibilidad, posicionamiento y usabilidad**, aunque no produzcan cambios visuales inmediatos.  
 
 ---
+
+### Pregunta 9  
+**Enunciado:**  
+> Asegúrese de entender el valor del atributo src de la etiqueta img.
+> ¿Qué pasaría si la imagen esta guardada en la misma carpeta de la página web?
+> ¿Y si está en una carpeta superior? 
+
+**Respuesta:** 
+Si la imagen esta en la misma carpeta de la imagen o una superior, la referencia `imagenes/imagen.jpg` no funcionaria, por lo que se haria uso de la etiqueta `alt` y se mostrará en este caso *"Imagen"* con un pequeño icono de imagen rota, haciendo referencia a que la imagen o el vínculo esta **roto**. Una solución en estos dos caso es cambiar la referencia a una como `imagen.jpg` o como `../imagen.jpg` respectivamente.
