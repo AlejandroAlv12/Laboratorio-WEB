@@ -44,3 +44,11 @@ Si la imagen esta en la misma carpeta de la imagen o una superior, la ruta `imag
 Se consigue con el atributo `target="_ablank"` donde `target` controla donde se abre el enlace y el valor `_ablank` indica que se abra en una nueva ventana.
 
 ---
+
+### Pregunta 6 del ejercicio final 
+**Enunciado:**  
+> ¿El resultado obtenido es similar al esquema HTML mostrado en la figura de la introducción teórica para elementos semánticos? 
+> ¿Por qué? Razónelo y/o consulte con su instructor.
+
+**Respuesta:**
+No se ve similar, porque falta uso de estilos con **CSS** para que se vea similar, más sin embargo **lleva la misma semántica** que el de la introducción por lo que esta bien estructurado y listo para recibir los estilos.
